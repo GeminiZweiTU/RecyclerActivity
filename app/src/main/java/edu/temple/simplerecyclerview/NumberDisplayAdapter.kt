@@ -13,6 +13,8 @@ class NumberDisplayAdapter(private val data: List<Int>) : RecyclerView.Adapter<N
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NumberViewHolder {
         val textview = TextView(parent.context).apply {
+
+            textSize = 18f
     }
 
     return NumberViewHolder(textview)
